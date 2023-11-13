@@ -1,12 +1,32 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    width: auto;
 }
+
 html,
 body {
-  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
-  font-size: 1.1rem;
-  font-family: "Quicksand", sans-serif;
-  height: 100%;
+    /* background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db); */
+    background: linear-gradient(-45deg, #E88A0F, #ee7752, #e73c7e, #c013e3, #8913e3, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    animation: gradient 10s ease infinite;
+    font-size: 1.1rem;
+    font-family: "Quicksand", sans-serif;
+    /* height: 80%; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }

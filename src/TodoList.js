@@ -60,7 +60,7 @@ class TodoList extends Component {
     });
     return (
       <div className='TodoList'>
-        <h1>
+        <h1 className="work">
         Get to Work <span>Let's set today's activities</span>
         </h1>
         <NewTodoForm createTodo={this.create} />
